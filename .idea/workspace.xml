@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="2h0GUxVpaT6wQkg9hp0Kt2zpnR7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="" />
+      <created>1716723600294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716723600294</updated>
+      <workItem from="1716723603796" duration="1634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3251" y="646" key="FileChooserDialogImpl" timestamp="1716725236023">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3251" y="646" key="FileChooserDialogImpl/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716725236023" />
+    <state x="2908" y="508" key="SettingsEditor" timestamp="1716724942964">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="2908" y="508" key="SettingsEditor/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716724942964" />
+    <state x="2722" y="533" key="new project wizard" timestamp="1716723663866">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="2722" y="533" key="new project wizard/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716723663866" />
+    <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup" timestamp="1716724388330">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716724388330" />
+  </component>
+</project>
