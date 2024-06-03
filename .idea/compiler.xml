@@ -2,18 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dynamic-thread-pool-test" />
         <module name="dynamic-thread-pool-spring-boot-starter" />
+        <module name="dynamic-thread-pool-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dynamic-thread-pool-admin" options="-parameters" />
       <module name="dynamic-thread-pool-spring-boot-starter" options="-parameters" />
+      <module name="dynamic-thread-pool-test" options="-parameters" />
     </option>
   </component>
 </project>

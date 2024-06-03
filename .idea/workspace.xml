@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="" />
+    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="搭建组件工程">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/log/log-info-2024-05-30.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/dynamic-thread-pool-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/DynamicThreadPoolsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/valobj/RegistryEnumVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/IRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/ThreadPoolDataReportJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/ThreadPoolConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/test/java/cn/bread/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,20 +58,85 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1717080534" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectId" id="2h0GUxVpaT6wQkg9hp0Kt2zpnR7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.valobj" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\resources" />
+      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\java\cn\bread\config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dynamic-thread-pool-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bread.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,29 +148,145 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716723600294</updated>
-      <workItem from="1716723603796" duration="1634000" />
+      <workItem from="1716723603796" duration="15940000" />
+      <workItem from="1717066837383" duration="3956000" />
+      <workItem from="1717114908921" duration="1182000" />
+      <workItem from="1717399322456" duration="10603000" />
     </task>
+    <task id="LOCAL-00001" summary="搭建组件工程">
+      <created>1716725336721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716725336721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="搭建组件工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建组件工程" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="3251" y="646" key="FileChooserDialogImpl" timestamp="1716725236023">
+    <state x="3076" y="623" key="#Inspections" timestamp="1717414056714">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state x="3251" y="646" key="FileChooserDialogImpl/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716725236023" />
-    <state x="2908" y="508" key="SettingsEditor" timestamp="1716724942964">
+    <state x="3076" y="623" key="#Inspections/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717414056714" />
+    <state x="2764" y="405" key="#Project_Structure" timestamp="1717066861245">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state x="2908" y="508" key="SettingsEditor/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716724942964" />
-    <state x="2722" y="533" key="new project wizard" timestamp="1716723663866">
+    <state x="2764" y="405" key="#Project_Structure/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717066861245" />
+    <state x="3278" y="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1717413915474">
       <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3278" y="559" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717413915474" />
+    <state x="3251" y="646" key="FileChooserDialogImpl" timestamp="1716892548491">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3251" y="646" key="FileChooserDialogImpl/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716892548491" />
+    <state width="1867" height="335" key="GridCell.Tab.0.bottom" timestamp="1717420754412">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.0.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754412" />
+    <state width="1867" height="335" key="GridCell.Tab.0.center" timestamp="1717420754411">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.0.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754411" />
+    <state width="1867" height="335" key="GridCell.Tab.0.left" timestamp="1717420754411">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.0.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754411" />
+    <state width="1867" height="335" key="GridCell.Tab.0.right" timestamp="1717420754412">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.0.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754412" />
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom" timestamp="1717420754416">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754416" />
+    <state width="1867" height="335" key="GridCell.Tab.1.center" timestamp="1717420754413">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754413" />
+    <state width="1867" height="335" key="GridCell.Tab.1.left" timestamp="1717420754412">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754412" />
+    <state width="1867" height="335" key="GridCell.Tab.1.right" timestamp="1717420754415">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.1.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754415" />
+    <state width="1867" height="335" key="GridCell.Tab.2.bottom" timestamp="1717420754418">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.2.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754418" />
+    <state width="1867" height="335" key="GridCell.Tab.2.center" timestamp="1717420754418">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.2.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754418" />
+    <state width="1867" height="335" key="GridCell.Tab.2.left" timestamp="1717420754417">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.2.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754417" />
+    <state width="1867" height="335" key="GridCell.Tab.2.right" timestamp="1717420754418">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="335" key="GridCell.Tab.2.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420754418" />
+    <state x="2824" y="502" key="Maven.ArtifactSearchDialog" timestamp="1716896876394">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="2824" y="502" key="Maven.ArtifactSearchDialog/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716896876394" />
+    <state x="2748" y="467" key="SettingsEditor" timestamp="1717066753362">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="2748" y="467" key="SettingsEditor/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717066753362" />
+    <state x="3016" y="618" key="Vcs.Push.Dialog.v2" timestamp="1716725540481">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3016" y="618" key="Vcs.Push.Dialog.v2/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716725540481" />
+    <state x="3108" y="559" width="1097" height="722" key="find.popup" timestamp="1717418259427">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3108" y="559" width="1097" height="722" key="find.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717418259427" />
+    <state x="61" y="187" key="new project wizard" timestamp="1716778401281">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="2722" y="533" key="new project wizard/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716723663866" />
+    <state x="61" y="187" key="new project wizard/0.0.1707.1019@0.0.1707.1019" timestamp="1716778401281" />
+    <state x="3092" y="437" width="840" height="1034" key="run.anything.popup" timestamp="1717420597651">
+      <screen x="2560" y="405" width="1920" height="1032" />
+    </state>
+    <state x="3092" y="437" width="840" height="1034" key="run.anything.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420597651" />
     <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup" timestamp="1716724388330">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
     <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716724388330" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/ThreadPoolDataReportJob.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
