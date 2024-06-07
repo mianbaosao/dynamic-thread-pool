@@ -2,18 +2,23 @@ package cn.bread.middleware.dynamic.thread.pool.sdk.config;
 
 import cn.bread.middleware.dynamic.thread.pool.sdk.domain.DynamicThreadPoolsService;
 import cn.bread.middleware.dynamic.thread.pool.sdk.domain.IDynamicThreadPoolService;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.valobj.RegistryEnumVO;
 import cn.bread.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
 import cn.bread.middleware.dynamic.thread.pool.sdk.registry.redis.RedisRegistry;
 import cn.bread.middleware.dynamic.thread.pool.sdk.trigger.job.ThreadPoolDataReportJob;
+import cn.bread.middleware.dynamic.thread.pool.sdk.trigger.listener.ThreadPoolConfigAdjustListener;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.redisson.Redisson;
+import org.redisson.api.RTopic;
 import org.redisson.api.RedissonClient;
 import org.redisson.codec.JsonJacksonCodec;
 import org.redisson.config.Config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -100,6 +105,18 @@ public class DynamicThreadPoolAutoConfig {
     @Bean
     public ThreadPoolDataReportJob threadPoolDataReportJob(IDynamicThreadPoolService dynamicThreadPoolService, IRegistry registry) {
         return new ThreadPoolDataReportJob(dynamicThreadPoolService, registry);
+    }
+
+    @Bean
+    public ThreadPoolConfigAdjustListener createThreadPoolConfigAdjustListener(IDynamicThreadPoolService dynamicThreadPoolService, IRegistry registry) {
+        return new ThreadPoolConfigAdjustListener(dynamicThreadPoolService, registry);
+    }
+
+    @Bean(name = "dynamicThreadPoolRedisTopic")
+    public RTopic createDynamicThreadPoolRedisTopic(RedissonClient redissonClient, @Qualifier("createThreadPoolConfigAdjustListener") ThreadPoolConfigAdjustListener threadPoolConfigAdjustListener) {
+        RTopic topic = redissonClient.getTopic(RegistryEnumVO.DYNAMIC_THREAD_POOL_REDIS_TOPIC.getKey() + "_" + applicationName);
+        topic.addListener(ThreadPoolConfigEntity.class, threadPoolConfigAdjustListener);
+        return topic;
     }
 
 }
