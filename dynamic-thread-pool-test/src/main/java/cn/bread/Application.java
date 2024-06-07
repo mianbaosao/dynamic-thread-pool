@@ -22,7 +22,7 @@ public class Application {
         SpringApplication.run(Application.class);
     }
 
-   /* @Bean
+    @Bean
     public ApplicationRunner applicationRunner(ExecutorService threadPoolExecutor01) {
         return args -> {
             while (true){
@@ -51,6 +51,6 @@ public class Application {
                 Thread.sleep(random.nextInt(50) + 1);
             }
         };
-    }*/
+    }
 
 }

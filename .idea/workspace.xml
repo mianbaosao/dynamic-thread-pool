@@ -5,28 +5,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="redis搭建注册中心">
-      <change afterPath="$PROJECT_DIR$/data/log/log-error-2024-05-30.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/trigger/DynamicThreadPoolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/types/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/test/java/cn/bread/middleware/dynamic/thread/pool/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/data/log/log-error-2024-06-04.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/data/log/log-info-2024-06-04.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/data/log/log_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/data/log/log_info.log" afterDir="false" />
+    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="订阅发布消息，提供接口">
+      <change afterPath="$PROJECT_DIR$/data/log/log-error-2024-06-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/log/log-info-2024-06-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/redis/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/front/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/test/java/cn/bread/middleware/dynamic/thread/pool/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/test/java/cn/bread/middleware/dynamic/thread/pool/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/test/java/cn/bread/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/test/java/cn/bread/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log-error-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +81,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,13 +108,14 @@
       <recent name="cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.valobj" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Component-peoject\dynamic-thread-pool" />
       <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\java\cn\bread\middleware\dynamic\thread\pool" />
       <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\resources" />
       <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\resources" />
       <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\java\cn\bread\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-thread-pool-test" />
       <extension name="coverage">
@@ -205,7 +194,7 @@
       <workItem from="1717399322456" duration="13244000" />
       <workItem from="1717493633112" duration="10775000" />
       <workItem from="1717570209620" duration="7861000" />
-      <workItem from="1717724978032" duration="594000" />
+      <workItem from="1717724978032" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="搭建组件工程">
       <created>1716725336721</created>
@@ -221,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717420956765</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="订阅发布消息，提供接口">
+      <created>1717726274982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717726274982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +239,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="搭建组件工程" />
     <MESSAGE value="redis搭建注册中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis搭建注册中心" />
+    <MESSAGE value="订阅发布消息，提供接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="订阅发布消息，提供接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3076" y="623" key="#Inspections" timestamp="1717414056714">
@@ -270,45 +267,45 @@
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
     <state x="3251" y="646" key="FileChooserDialogImpl/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716892548491" />
-    <state width="1867" height="307" key="GridCell.Tab.0.bottom" timestamp="1717683114105">
+    <state width="1867" height="274" key="GridCell.Tab.0.bottom" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.0.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683114105" />
+    <state width="1867" height="274" key="GridCell.Tab.0.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="307" key="GridCell.Tab.0.center" timestamp="1717683114105">
+    <state width="1867" height="274" key="GridCell.Tab.0.center" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.0.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683114105" />
+    <state width="1867" height="274" key="GridCell.Tab.0.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="307" key="GridCell.Tab.0.left" timestamp="1717683114104">
+    <state width="1867" height="274" key="GridCell.Tab.0.left" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.0.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683114104" />
+    <state width="1867" height="274" key="GridCell.Tab.0.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="307" key="GridCell.Tab.0.right" timestamp="1717683114105">
+    <state width="1867" height="274" key="GridCell.Tab.0.right" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.0.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683114105" />
+    <state width="1867" height="274" key="GridCell.Tab.0.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="307" key="GridCell.Tab.1.bottom" timestamp="1717683113987">
+    <state width="1867" height="274" key="GridCell.Tab.1.bottom" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.1.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
+    <state width="1867" height="274" key="GridCell.Tab.1.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.1.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
-    <state width="1867" height="307" key="GridCell.Tab.1.center" timestamp="1717683113987">
+    <state width="1867" height="274" key="GridCell.Tab.1.center" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.1.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
+    <state width="1867" height="274" key="GridCell.Tab.1.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.1.center/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
-    <state width="1867" height="307" key="GridCell.Tab.1.left" timestamp="1717683113987">
+    <state width="1867" height="274" key="GridCell.Tab.1.left" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.1.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
+    <state width="1867" height="274" key="GridCell.Tab.1.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.1.left/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826679" />
-    <state width="1867" height="307" key="GridCell.Tab.1.right" timestamp="1717683113987">
+    <state width="1867" height="274" key="GridCell.Tab.1.right" timestamp="1717726529628">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state width="1867" height="307" key="GridCell.Tab.1.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
+    <state width="1867" height="274" key="GridCell.Tab.1.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
     <state width="1653" height="346" key="GridCell.Tab.1.right/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
     <state width="1867" height="307" key="GridCell.Tab.2.bottom" timestamp="1717683113987">
       <screen x="2560" y="405" width="1920" height="1032" />
@@ -338,10 +335,10 @@
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
     <state x="2748" y="467" key="SettingsEditor/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717066753362" />
-    <state x="3016" y="618" key="Vcs.Push.Dialog.v2" timestamp="1717420963513">
+    <state x="3016" y="618" key="Vcs.Push.Dialog.v2" timestamp="1717726280023">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
-    <state x="3016" y="618" key="Vcs.Push.Dialog.v2/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420963513" />
+    <state x="3016" y="618" key="Vcs.Push.Dialog.v2/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726280023" />
     <state x="3108" y="559" width="1097" height="722" key="find.popup" timestamp="1717418259427">
       <screen x="2560" y="405" width="1920" height="1032" />
     </state>
