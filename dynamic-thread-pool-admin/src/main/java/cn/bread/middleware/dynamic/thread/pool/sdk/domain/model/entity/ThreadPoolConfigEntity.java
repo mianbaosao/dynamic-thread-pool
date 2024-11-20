@@ -1,5 +1,8 @@
 package cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.entity;
 
+/**
+ * 线程池详细配置
+ */
 public class ThreadPoolConfigEntity {
 
     /**
