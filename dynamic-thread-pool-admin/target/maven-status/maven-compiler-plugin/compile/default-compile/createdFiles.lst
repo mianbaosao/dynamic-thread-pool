@@ -1,0 +1,9 @@
+cn\bread\middleware\dynamic\thread\pool\sdk\domain\model\entity\ThreadPoolConfigEntity.class
+cn\bread\middleware\dynamic\thread\pool\Application.class
+cn\bread\middleware\dynamic\thread\pool\Application$RedisClientConfigProperties.class
+cn\bread\middleware\dynamic\thread\pool\Application$RedisClientConfig.class
+cn\bread\middleware\dynamic\thread\pool\types\Response.class
+META-INF\spring-configuration-metadata.json
+cn\bread\middleware\dynamic\thread\pool\types\Response$Code.class
+cn\bread\middleware\dynamic\thread\pool\types\Response$ResponseBuilder.class
+cn\bread\middleware\dynamic\thread\pool\trigger\DynamicThreadPoolController.class

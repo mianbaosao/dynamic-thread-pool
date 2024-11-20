@@ -1,0 +1,31 @@
+24-11-20.21:21:29.212 [main            ] INFO  Application            - Starting Application on Bread with PID 28232 (started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool-master)
+24-11-20.21:21:29.215 [main            ] INFO  Application            - The following profiles are active: dev
+24-11-20.21:21:29.641 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-11-20.21:21:29.642 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-11-20.21:21:29.658 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+24-11-20.21:21:29.986 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-11-20.21:21:29.993 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-11-20.21:21:29.997 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-20.21:21:29.997 [main            ] INFO  StandardEngine         - Starting Servlet Engine: Apache Tomcat/9.0.12
+24-11-20.21:21:30.001 [main            ] INFO  AprLifecycleListener   - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files (x86)\Tencent\QQ\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\node js\;%MAVEN_HOME%\bin;D:\Program Files\Git\cmd;D:\微信web开发者工具\dll;D:\bread\;D:\bin;C:\Program Files\CMake\bin;E:\runtime\win64;E:\Anaconda;E:\Anaconda\Scripts;E:\Anaconda\Library\bin;C:\Program Files\Docker\Docker\resources\bin;E:\bin;E:\polyspace\bin;E:\cloud-start\rabbitmq-server-windows-3.13.1\Erlang OTP\bin;D:\conda;D:\conda\Library\mingw-w64\bin;D:\conda\Library\usr\bin;D:\conda\Library\bin;D:\conda\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;D:\maven\apache-maven-3.6.3\bin;D:\PyCharm 2023.3.2\bin;;.]
+24-11-20.21:21:30.096 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-20.21:21:30.096 [main            ] INFO  ContextLoader          - Root WebApplicationContext: initialization completed in 836 ms
+24-11-20.21:21:30.369 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-20.21:21:32.123 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-20.21:21:32.132 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-11-20.21:21:32.252 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+24-11-20.21:21:32.253 [main            ] INFO  ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+24-11-20.21:21:32.368 [main            ] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+24-11-20.21:21:32.586 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-11-20.21:21:32.610 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-11-20.21:21:32.611 [main            ] INFO  NioSelectorPool        - Using a shared selector for servlet write/read
+24-11-20.21:21:32.619 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-11-20.21:21:32.621 [main            ] INFO  Application            - Started Application in 3.698 seconds (JVM running for 4.69)
+24-11-20.21:21:33.321 [RMI TCP Connection(1)-192.168.137.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-20.21:21:33.321 [RMI TCP Connection(1)-192.168.137.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-20.21:21:33.325 [RMI TCP Connection(1)-192.168.137.1] INFO  DispatcherServlet      - Completed initialization in 4 ms

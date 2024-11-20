@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "thread.pool.executor.config",
+      "type": "cn.bread.config.ThreadPoolConfigProperties",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "thread.pool.executor.config.block-queue-size",
+      "type": "java.lang.Integer",
+      "description": "最大队列数",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties",
+      "defaultValue": 5000
+    },
+    {
+      "name": "thread.pool.executor.config.core-pool-size",
+      "type": "java.lang.Integer",
+      "description": "核心线程数",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "thread.pool.executor.config.keep-alive-time",
+      "type": "java.lang.Long",
+      "description": "最大等待时间",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "thread.pool.executor.config.max-pool-size",
+      "type": "java.lang.Integer",
+      "description": "最大线程数",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties",
+      "defaultValue": 200
+    },
+    {
+      "name": "thread.pool.executor.config.policy",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.config.ThreadPoolConfigProperties",
+      "defaultValue": "AbortPolicy"
+    }
+  ],
+  "hints": []
+}
