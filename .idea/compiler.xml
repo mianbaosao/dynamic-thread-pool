@@ -12,7 +12,12 @@
         <module name="dynamic-thread-pool-admin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="dynamic-thread-pool" target="1.8" />
+      <module name="dynamic-thread-pool-admin" target="1.8" />
+      <module name="dynamic-thread-pool-spring-boot-starter" target="8" />
+      <module name="dynamic-thread-pool-test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
