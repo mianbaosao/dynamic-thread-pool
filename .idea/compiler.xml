@@ -7,20 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dynamic-thread-pool-admin" />
         <module name="dynamic-thread-pool-test" />
         <module name="dynamic-thread-pool-spring-boot-starter" />
-        <module name="dynamic-thread-pool-admin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="dynamic-thread-pool" target="1.8" />
-      <module name="dynamic-thread-pool-admin" target="1.8" />
-      <module name="dynamic-thread-pool-spring-boot-starter" target="8" />
-      <module name="dynamic-thread-pool-test" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dynamic-thread-pool" options="-parameters" />
       <module name="dynamic-thread-pool-admin" options="-parameters" />
       <module name="dynamic-thread-pool-spring-boot-starter" options="-parameters" />
       <module name="dynamic-thread-pool-test" options="-parameters" />

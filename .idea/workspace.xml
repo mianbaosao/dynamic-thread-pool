@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="订阅发布消息，提供接口">
-      <change afterPath="$PROJECT_DIR$/data/log/log-error-2024-06-06.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/log/log-info-2024-06-06.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/redis/redis.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/front/index.html" afterDir="false" />
+    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="feat:修正完毕">
+      <change afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolWebAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolAlarmAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryRedisAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolWebAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/AlarmMessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/RefreshThreadPoolConfigDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/UpdateThreadPoolConfigDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/enums/AlarmStrategyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/enums/RegistryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/hook/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/hook/ResizableCapacityLinkedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/utils/ApplicationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/config/FrontendConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/ThreadPoolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/exception/DynamicThreadPoolWebGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/enums/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/CheckAuthVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/ResponseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/SettingsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/utils/AuthUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log-error-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +78,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mianbaosao&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
     <option name="recentBranches">
@@ -46,8 +101,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1717080534" />
+                    <option name="branchName" value="24-11-22-bread-web" />
+                    <option name="lastUsedInstant" value="1732278343" />
                   </RecentBranch>
                 </list>
               </option>
@@ -58,9 +113,19 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mianbaosao/dynamic-thread-pool.git&quot;,
+    &quot;accountId&quot;: &quot;df11d691-928b-4b2d-8ffd-33c448a17eca&quot;
+  }
+}</component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2h0GUxVpaT6wQkg9hp0Kt2zpnR7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,50 +134,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15625" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "24-11-22-bread-web",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/dynamic-thread-pool-master (3)/dynamic-thread-pool/dynamic-thread-pool/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-spring-boot-starter\src\main\java\cn\bread\middleware\dynamic\thread\pool\sdk" />
+      <recent name="E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-spring-boot-starter\src\main\java\cn\bread\middleware\dynamic\thread\pool\sdk\config\properties" />
+      <recent name="E:\Component-peoject\dynamic-thread-pool" />
+      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\java\cn\bread\middleware\dynamic\thread\pool" />
+      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.bread.middleware.dynamic.thread.pool" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.bread.middleware.dynamic.thread.pool.sdk.config" />
       <recent name="cn.bread.middleware.dynamic.thread.pool.test.types" />
       <recent name="cn.bread.middleware.dynamic.thread.pool.test.sdk.domain.model.entity" />
       <recent name="test" />
       <recent name="cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.valobj" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Component-peoject\dynamic-thread-pool" />
-      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\java\cn\bread\middleware\dynamic\thread\pool" />
-      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\resources" />
-      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\resources" />
-      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-test\src\main\java\cn\bread\config" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -149,13 +205,13 @@
     </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dynamic-thread-pool-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bread.middleware.dynamic.thread.pool.Application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.bread.middleware.dynamic.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bread.middleware.dynamic.thread.pool.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,9 +231,15 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpringBootOptions">
-    <option name="showAdditionalConfigNotification" value="false" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -195,6 +257,10 @@
       <workItem from="1717493633112" duration="10775000" />
       <workItem from="1717570209620" duration="7861000" />
       <workItem from="1717724978032" duration="2268000" />
+      <workItem from="1732159001509" duration="5459000" />
+      <workItem from="1732191309845" duration="34000" />
+      <workItem from="1732198613722" duration="15073000" />
+      <workItem from="1732277487793" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="搭建组件工程">
       <created>1716725336721</created>
@@ -217,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717726274982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:修正完毕">
+      <created>1732159118118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732159118118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -233,140 +306,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="搭建组件工程" />
     <MESSAGE value="redis搭建注册中心" />
     <MESSAGE value="订阅发布消息，提供接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="订阅发布消息，提供接口" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="3076" y="623" key="#Inspections" timestamp="1717414056714">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3076" y="623" key="#Inspections/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717414056714" />
-    <state x="2764" y="405" key="#Project_Structure" timestamp="1717680043879">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="2764" y="405" key="#Project_Structure/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717680043879" />
-    <state x="3278" y="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1717494744616">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3278" y="559" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717494744616" />
-    <state x="3296" y="831" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1717681832146">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3296" y="831" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717681832146" />
-    <state x="3098" y="780" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1717681843742">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3098" y="780" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717681843742" />
-    <state x="3251" y="646" key="FileChooserDialogImpl" timestamp="1716892548491">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3251" y="646" key="FileChooserDialogImpl/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716892548491" />
-    <state width="1867" height="274" key="GridCell.Tab.0.bottom" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.0.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="274" key="GridCell.Tab.0.center" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.0.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="274" key="GridCell.Tab.0.left" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.0.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="274" key="GridCell.Tab.0.right" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.0.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826827" />
-    <state width="1867" height="274" key="GridCell.Tab.1.bottom" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.1.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.1.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
-    <state width="1867" height="274" key="GridCell.Tab.1.center" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.1.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.1.center/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
-    <state width="1867" height="274" key="GridCell.Tab.1.left" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.1.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.1.left/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826679" />
-    <state width="1867" height="274" key="GridCell.Tab.1.right" timestamp="1717726529628">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="274" key="GridCell.Tab.1.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726529628" />
-    <state width="1653" height="346" key="GridCell.Tab.1.right/0.0.1707.1019@0.0.1707.1019" timestamp="1717506826680" />
-    <state width="1867" height="307" key="GridCell.Tab.2.bottom" timestamp="1717683113987">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="307" key="GridCell.Tab.2.bottom/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
-    <state width="1653" height="353" key="GridCell.Tab.2.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1717505378790" />
-    <state width="1867" height="307" key="GridCell.Tab.2.center" timestamp="1717683113987">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="307" key="GridCell.Tab.2.center/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
-    <state width="1653" height="353" key="GridCell.Tab.2.center/0.0.1707.1019@0.0.1707.1019" timestamp="1717505378790" />
-    <state width="1867" height="307" key="GridCell.Tab.2.left" timestamp="1717683113987">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="307" key="GridCell.Tab.2.left/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
-    <state width="1653" height="353" key="GridCell.Tab.2.left/0.0.1707.1019@0.0.1707.1019" timestamp="1717505378790" />
-    <state width="1867" height="307" key="GridCell.Tab.2.right" timestamp="1717683113987">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state width="1867" height="307" key="GridCell.Tab.2.right/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717683113987" />
-    <state width="1653" height="353" key="GridCell.Tab.2.right/0.0.1707.1019@0.0.1707.1019" timestamp="1717505378790" />
-    <state x="2824" y="502" key="Maven.ArtifactSearchDialog" timestamp="1716896876394">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="2824" y="502" key="Maven.ArtifactSearchDialog/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716896876394" />
-    <state x="2748" y="467" key="SettingsEditor" timestamp="1717066753362">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="2748" y="467" key="SettingsEditor/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717066753362" />
-    <state x="3016" y="618" key="Vcs.Push.Dialog.v2" timestamp="1717726280023">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3016" y="618" key="Vcs.Push.Dialog.v2/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717726280023" />
-    <state x="3108" y="559" width="1097" height="722" key="find.popup" timestamp="1717418259427">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3108" y="559" width="1097" height="722" key="find.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717418259427" />
-    <state x="61" y="187" key="new project wizard" timestamp="1716778401281">
-      <screen x="0" y="0" width="1707" height="1019" />
-    </state>
-    <state x="2722" y="533" key="new project wizard/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716723663866" />
-    <state x="61" y="187" key="new project wizard/0.0.1707.1019@0.0.1707.1019" timestamp="1716778401281" />
-    <state x="3092" y="437" width="840" height="1034" key="run.anything.popup" timestamp="1717420597651">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3092" y="437" width="840" height="1034" key="run.anything.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1717420597651" />
-    <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup" timestamp="1716724388330">
-      <screen x="2560" y="405" width="1920" height="1032" />
-    </state>
-    <state x="3103" y="404" width="840" height="1034" key="search.everywhere.popup/0.0.1707.1019/2560.405.1920.1032@2560.405.1920.1032" timestamp="1716724388330" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="feat:修正完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:修正完毕" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dynamic_thread_pool$Application.ic" NAME="Application Coverage Results" MODIFIED="1717504710925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

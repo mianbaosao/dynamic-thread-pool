@@ -11,12 +11,13 @@ import java.util.List;
  */
 public interface IDynamicThreadPoolService {
 
+    //查询所有线程池的集合
     List<ThreadPoolConfigEntity> queryThreadPoolList();
 
-
+    //查询单个线程池by name
     ThreadPoolConfigEntity queryThreadPoolConfigByName(String threadPoolName);
 
-
+    //update
     void updateThreadPoolConfig(ThreadPoolConfigEntity threadPoolConfigEntity);
 
 }
