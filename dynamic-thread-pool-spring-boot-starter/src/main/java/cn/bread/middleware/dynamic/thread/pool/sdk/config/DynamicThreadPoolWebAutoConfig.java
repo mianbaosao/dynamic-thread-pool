@@ -3,11 +3,11 @@ package cn.bread.middleware.dynamic.thread.pool.sdk.config;
 
 
 import cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties;
-import cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig;
-import cn.bread.middleware.dynamic.thread.pool.sdk.web.controller.AuthController;
-import cn.bread.middleware.dynamic.thread.pool.sdk.web.controller.SettingsController;
-import cn.bread.middleware.dynamic.thread.pool.sdk.web.controller.ThreadPoolController;
-import cn.bread.middleware.dynamic.thread.pool.sdk.web.exception.DynamicThreadPoolWebGlobalExceptionHandler;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.controller.AuthController;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.controller.SettingsController;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.controller.ThreadPoolController;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.exception.DynamicThreadPoolWebGlobalExceptionHandler;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -23,17 +23,17 @@ public class DynamicThreadPoolWebAutoConfig {
         return new FrontendConfig(dynamicThreadPoolWebAutoProperties);
     }
 
-    @Bean
+//    @Bean
     public AuthController dynamicThreadPoolAuthController() {
         return new AuthController();
     }
 
-    @Bean
+//    @Bean
     public ThreadPoolController dynamicThreadPoolThreadPoolController() {
         return new ThreadPoolController();
     }
 
-    @Bean
+//    @Bean
     public SettingsController dynamicThreadPoolSettingsController() {
         return new SettingsController();
     }
