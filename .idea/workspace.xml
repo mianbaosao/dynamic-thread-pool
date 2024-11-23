@@ -18,47 +18,41 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="feat:修正完毕">
-      <change afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolWebAutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolAlarmAutoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryAutoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryRedisAutoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolWebAutoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/AlarmMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/RefreshThreadPoolConfigDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/dto/UpdateThreadPoolConfigDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/enums/AlarmStrategyEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/enums/RegistryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/hook/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/model/hook/ResizableCapacityLinkedBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/utils/ApplicationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/config/FrontendConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/SettingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/controller/ThreadPoolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/exception/DynamicThreadPoolWebGlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/enums/ResponseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/CheckAuthVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/LoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/ResponseVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/model/vo/SettingsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/web/utils/AuthUtils.java" afterDir="false" />
+    <list default="true" id="4e729a25-7db1-4184-80c0-9444b5f5b868" name="Default Changelist" comment="feat:后端基本启动完成">
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/DynamicThreadPoolTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/propertis/ThreadPoolConfigAutoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/runner/ThreadPoolRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/trigger/DynamicThreadPoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-admin/src/main/java/cn/bread/middleware/dynamic/thread/pool/trigger/DynamicThreadPoolController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/config/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/DynamicThreadPoolsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/IDynamicThreadPoolService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/valobj/RegistryEnumVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/domain/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/IRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/registry/redis/RedisRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/ThreadPoolDataReportJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/ThreadPoolDataReportJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/java/cn/bread/config/ThreadPoolConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-thread-pool-test/src/test/java/cn/bread/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-thread-pool-test/src/test/java/cn/bread/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +78,8 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -102,7 +98,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="24-11-22-bread-web" />
-                    <option name="lastUsedInstant" value="1732278343" />
+                    <option name="lastUsedInstant" value="1732351741" />
                   </RecentBranch>
                 </list>
               </option>
@@ -119,9 +115,10 @@
     &quot;accountId&quot;: &quot;df11d691-928b-4b2d-8ffd-33c448a17eca&quot;
   }
 }</component>
-  <component name="MavenRunner">
-    <option name="delegateBuildToMaven" value="true" />
-  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -136,16 +133,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.DynamicThreadPoolTestApplication.executor": "Run",
+    "Maven.DynamicThreadPoolTestApplication.executor": "Run",
+    "Maven.dynamic-thread-pool [install,--projects...].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "24-11-22-bread-web",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/dynamic-thread-pool-master (3)/dynamic-thread-pool/dynamic-thread-pool/dynamic-thread-pool-spring-boot-starter/src/main/java/cn/bread/middleware/dynamic/thread/pool/sdk",
+    "last_opened_file_path": "E:/dynamic-thread-pool-master (3)/dynamic-thread-pool/dynamic-thread-pool/dynamic-thread-pool-test/src/main/java/cn/bread",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -154,11 +161,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\src\main\java\cn\bread" />
       <recent name="E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-spring-boot-starter\src\main\java\cn\bread\middleware\dynamic\thread\pool\sdk" />
       <recent name="E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-spring-boot-starter\src\main\java\cn\bread\middleware\dynamic\thread\pool\sdk\config\properties" />
       <recent name="E:\Component-peoject\dynamic-thread-pool" />
       <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\java\cn\bread\middleware\dynamic\thread\pool" />
-      <recent name="E:\Component-peoject\dynamic-thread-pool\dynamic-thread-pool-admin\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.bread.middleware.dynamic.thread.pool" />
@@ -171,7 +178,30 @@
       <recent name="cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.valobj" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DynamicThreadPoolTestApplication">
+    <configuration name="DynamicThreadPoolTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.bread.DynamicThreadPoolTestApplication" />
+      <module name="dynamic-thread-pool-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-thread-pool-test" />
       <extension name="coverage">
@@ -223,8 +253,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicThreadPoolTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dynamic-thread-pool-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bread.DynamicThreadPoolTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DynamicThreadPoolTestApplication" />
+      <item itemvalue="JUnit.ApiTest" />
+      <item itemvalue="JUnit.ApiTest.test_dynamicThreadPoolRedisTopic" />
+      <item itemvalue="Spring Boot.DynamicThreadPoolTestApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicThreadPoolTestApplication" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="JUnit.ApiTest.test_dynamicThreadPoolRedisTopic" />
         <item itemvalue="JUnit.ApiTest" />
@@ -261,6 +307,7 @@
       <workItem from="1732191309845" duration="34000" />
       <workItem from="1732198613722" duration="15073000" />
       <workItem from="1732277487793" duration="741000" />
+      <workItem from="1732351776515" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="搭建组件工程">
       <created>1716725336721</created>
@@ -301,7 +348,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="24-11-22-bread-web" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

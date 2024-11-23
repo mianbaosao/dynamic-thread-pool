@@ -13,17 +13,23 @@
     <artifactId>dynamic-thread-pool-test</artifactId>
 
     <packaging>jar</packaging>
-
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -31,7 +37,6 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>2.0.49</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -51,18 +56,10 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
 
-        <!-- 线程组件 -->
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>dynamic-thread-pool-spring-boot-starter</artifactId>
             <version>1.0</version>
-        </dependency>
-
-        <!-- Netty 依赖 -->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.68.Final</version> <!-- 选择一个稳定的版本 -->
         </dependency>
     </dependencies>
 
@@ -90,7 +87,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version> <!-- 更新到更稳定的版本 -->
+                <version>2.6</version>
                 <configuration>
                     <skipTests>true</skipTests>
                     <testFailureIgnore>false</testFailureIgnore>
@@ -103,7 +100,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.Application</mainClass>
+                    <mainClass>cn.notcoder.dtp.sdk.dynamicthreadpooltest.DynamicThreadPoolTestApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

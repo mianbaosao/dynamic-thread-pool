@@ -1,82 +1,67 @@
 package cn.bread.config;
 
+import cn.bread.config.propertis.ThreadPoolConfigAutoProperties;
+
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.hook.ResizableCapacityLinkedBlockingQueue;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;
 
+
 import java.util.concurrent.*;
 
+
+@Slf4j
 @EnableAsync
 @Configuration
-@Slf4j
-@EnableConfigurationProperties(ThreadPoolConfigProperties.class)
+@EnableConfigurationProperties(ThreadPoolConfigAutoProperties.class)
 public class ThreadPoolConfig {
 
-    @Bean("threadPoolExecutor01")
-    public ThreadPoolExecutor threadPoolExecutor01(ThreadPoolConfigProperties properties) {
-        // 实例化策略
-        RejectedExecutionHandler handler;
-        switch (properties.getPolicy()){
-            case "AbortPolicy":
-                handler = new ThreadPoolExecutor.AbortPolicy();
-                break;
-            case "DiscardPolicy":
-                handler = new ThreadPoolExecutor.DiscardPolicy();
-                break;
-            case "DiscardOldestPolicy":
-                handler = new ThreadPoolExecutor.DiscardOldestPolicy();
-                break;
-            case "CallerRunsPolicy":
-                handler = new ThreadPoolExecutor.CallerRunsPolicy();
-                break;
-            default:
-                handler = new ThreadPoolExecutor.AbortPolicy();
-                break;
-        }
-
-        // 创建线程池
-        return new ThreadPoolExecutor(properties.getCorePoolSize(),
+    @Bean
+    public ThreadPoolExecutor threadPoolExecutor01(ThreadPoolConfigAutoProperties properties) {
+        return new ThreadPoolExecutor(
+                properties.getCorePoolSize(),
                 properties.getMaxPoolSize(),
                 properties.getKeepAliveTime(),
                 TimeUnit.SECONDS,
-                new LinkedBlockingQueue<>(properties.getBlockQueueSize()),
+                new ResizableCapacityLinkedBlockingQueue<>(properties.getBlockQueueSize()),
                 Executors.defaultThreadFactory(),
-                handler);
+                getRejectedExecutionHandler(properties.getPolicy())
+        );
     }
 
-    @Bean("threadPoolExecutor02")
-    public ThreadPoolExecutor threadPoolExecutor02(ThreadPoolConfigProperties properties) {
-        // 实例化策略
-        RejectedExecutionHandler handler;
-        switch (properties.getPolicy()){
-            case "AbortPolicy":
-                handler = new ThreadPoolExecutor.AbortPolicy();
-                break;
-            case "DiscardPolicy":
-                handler = new ThreadPoolExecutor.DiscardPolicy();
-                break;
-            case "DiscardOldestPolicy":
-                handler = new ThreadPoolExecutor.DiscardOldestPolicy();
-                break;
-            case "CallerRunsPolicy":
-                handler = new ThreadPoolExecutor.CallerRunsPolicy();
-                break;
-            default:
-                handler = new ThreadPoolExecutor.AbortPolicy();
-                break;
-
-
-        }
-        // 创建线程池
-        return new ThreadPoolExecutor(properties.getCorePoolSize(),
+    @Bean
+    public ThreadPoolExecutor threadPoolExecutor02(ThreadPoolConfigAutoProperties properties) {
+        return new ThreadPoolExecutor(
+                properties.getCorePoolSize(),
                 properties.getMaxPoolSize(),
                 properties.getKeepAliveTime(),
                 TimeUnit.SECONDS,
-                new LinkedBlockingQueue<>(properties.getBlockQueueSize()),
+                new ResizableCapacityLinkedBlockingQueue<>(properties.getBlockQueueSize()),
                 Executors.defaultThreadFactory(),
-                handler);
+                getRejectedExecutionHandler(properties.getPolicy())
+        );
     }
 
+
+    /**
+     * 获取线程池拒绝策略
+     * @param policy 策略名
+     * @return 策略
+     */
+    private RejectedExecutionHandler getRejectedExecutionHandler(String policy) {
+        switch (policy) {
+            case "DiscardPolicy":;
+                return new ThreadPoolExecutor.DiscardPolicy();
+            case "DiscardOldestPolicy":
+                return new ThreadPoolExecutor.DiscardOldestPolicy();
+            case "CallerRunsPolicy":;
+                return new ThreadPoolExecutor.CallerRunsPolicy();
+            case "AbortPolicy":
+            default:
+                return new ThreadPoolExecutor.AbortPolicy();
+        }
+    }
 }

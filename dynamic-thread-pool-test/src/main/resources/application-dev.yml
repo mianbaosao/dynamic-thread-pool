@@ -12,20 +12,24 @@ thread:
         block-queue-size: 5000
         policy: CallerRunsPolicy
 
- #动态线程池管理配置
-dynamic:
-  thread:
-    pool:
-      config:
-        # 状态；true = 开启、false 关闭
-        enabled: true
-        # redis host
-        host: 127.0.0.1
-        # redis port
-        port: 6379
-
-# 日志
-logging:
-  level:
-    root: info
-  config: classpath:logback-spring.xml
+# 动态线程池配置
+dynamic-thread-pool:
+  registry:
+    redis:
+      host: localhost
+      port: 6379
+    report-cron: "0/10 * * * * ?"
+  web:
+    auth:
+      enable: true
+      username: dtp
+      password: dtp
+    context-path: /dtp
+    enabled: true
+    grafana-dashboard-url: http://localhost:3000/d/fe4p8gg186ccgf/e58aa8-e68081-e7babf-e7a88b-e6b1a0-e79b91-e68ea7?orgId=1&from=2024-11-22T03:28:04.267Z&to=2024-11-22T09:28:04.267Z&timezone=browser&var-applicationName=&var-poolName=&refresh=5s
+  alarm:
+    enabled: true
+    access-token:
+      ding-ding: xxx
+    use-platform:
+      - "DingDing"
