@@ -1,0 +1,161 @@
+{
+  "groups": [
+    {
+      "name": "dynamic-thread-pool.alarm",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.alarm.access-token",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties$AccessToken",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryAutoProperties",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.web",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.web.auth",
+      "type": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties$Auth",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dynamic-thread-pool.alarm.access-token.ding-ding",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties$AccessToken"
+    },
+    {
+      "name": "dynamic-thread-pool.alarm.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.alarm.use-platform",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolAlarmAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "设置连接超时时间（单位：毫秒），默认为10000",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "设置连接池的最小空闲连接数，默认为10",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "设置连接池的大小，默认为64",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.database",
+      "type": "java.lang.Integer",
+      "description": "Redis数据库，默认是0",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.host",
+      "type": "java.lang.String",
+      "description": "Redis地址",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.idle-connection-timeout",
+      "type": "java.lang.Integer",
+      "description": "设置连接的最大空闲时间（单位：毫秒），超过该时间的空闲连接将被关闭，默认为10000",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.keep-alive",
+      "type": "java.lang.Boolean",
+      "description": "设置是否保持长连接，默认为true",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.password",
+      "type": "java.lang.String",
+      "description": "Redis 密码",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.ping-interval",
+      "type": "java.lang.Integer",
+      "description": "设置定期检查连接是否可用的时间间隔（单位：毫秒），默认为0，表示不进行定期检查",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.port",
+      "type": "java.lang.Integer",
+      "description": "Redis端口，默认6379",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.retry-attempts",
+      "type": "java.lang.Integer",
+      "description": "设置连接重试次数，默认为3",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.redis.retry-interval",
+      "type": "java.lang.Integer",
+      "description": "设置连接重试的间隔时间（单位：毫秒），默认为1000",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryRedisAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.registry.report-cron",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolRegistryAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.web.auth.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties$Auth"
+    },
+    {
+      "name": "dynamic-thread-pool.web.auth.password",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties$Auth"
+    },
+    {
+      "name": "dynamic-thread-pool.web.auth.username",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties$Auth"
+    },
+    {
+      "name": "dynamic-thread-pool.web.context-path",
+      "type": "java.lang.String",
+      "description": "WEB根路径",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.web.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启Web管理界面, 默认关闭",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties"
+    },
+    {
+      "name": "dynamic-thread-pool.web.grafana-dashboard-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.middleware.dynamic.thread.pool.sdk.config.properties.DynamicThreadPoolWebAutoProperties"
+    }
+  ],
+  "hints": []
+}

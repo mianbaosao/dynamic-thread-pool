@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "thread.pool.executor.config",
+      "type": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "thread.pool.executor.config.block-queue-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.keep-alive-time",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.policy",
+      "type": "java.lang.String",
+      "sourceType": "cn.bread.config.propertis.ThreadPoolConfigAutoProperties"
+    }
+  ],
+  "hints": []
+}
