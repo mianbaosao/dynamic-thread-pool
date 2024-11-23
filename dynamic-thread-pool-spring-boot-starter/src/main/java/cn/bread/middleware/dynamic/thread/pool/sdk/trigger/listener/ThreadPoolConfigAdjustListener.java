@@ -1,46 +1,44 @@
 package cn.bread.middleware.dynamic.thread.pool.sdk.trigger.listener;
 
-import cn.bread.middleware.dynamic.thread.pool.sdk.domain.IDynamicThreadPoolService;
+
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.dto.UpdateThreadPoolConfigDTO;
 import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
-import cn.bread.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
-import com.alibaba.fastjson.JSON;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.registry.IRegistry;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.service.IDynamicThreadPoolService;
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.listener.MessageListener;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+@Slf4j
+@AllArgsConstructor
+public class ThreadPoolConfigAdjustListener implements MessageListener<UpdateThreadPoolConfigDTO> {
 
-/**
- * @Description: 动态线程池变更监听
- * @Author:bread
- * @Date: 2024-06-04 17:50
- */
-public class ThreadPoolConfigAdjustListener implements MessageListener<ThreadPoolConfigEntity> {
+    private IDynamicThreadPoolService dynamicThreadPoolService;
 
-    private Logger logger = LoggerFactory.getLogger(ThreadPoolConfigAdjustListener.class);
-
-    private final IDynamicThreadPoolService dynamicThreadPoolService;
-
-    private final IRegistry registry;
-
-    public ThreadPoolConfigAdjustListener(IDynamicThreadPoolService dynamicThreadPoolService, IRegistry registry) {
-        this.dynamicThreadPoolService = dynamicThreadPoolService;
-        this.registry = registry;
-    }
+    private IRegistry registry;
 
     @Override
-    public void onMessage(CharSequence charSequence, ThreadPoolConfigEntity threadPoolConfigEntity) {
-        logger.info("动态线程池，调整线程池配置。线程池名称:{} 核心线程数:{} 最大线程数:{}", threadPoolConfigEntity.getThreadPoolName(), threadPoolConfigEntity.getPoolSize(), threadPoolConfigEntity.getMaximumPoolSize());
-        dynamicThreadPoolService.updateThreadPoolConfig(threadPoolConfigEntity);
+    public void onMessage(CharSequence charSequence, UpdateThreadPoolConfigDTO updateThreadPoolConfigDTO) {
+        Boolean success = dynamicThreadPoolService.updateThreadPoolConfig(updateThreadPoolConfigDTO);
+        if (!success) {
+            log.warn("动态线程池, 配置变更结果: {}, 配置参数: {}", success, updateThreadPoolConfigDTO);
+        }
+        log.info("动态线程池, 配置变更结果: {}, 配置参数: {}", success, updateThreadPoolConfigDTO);
 
-        // 更新后上报最新数据
         List<ThreadPoolConfigEntity> threadPoolConfigEntities = dynamicThreadPoolService.queryThreadPoolList();
         registry.reportThreadPool(threadPoolConfigEntities);
+        log.info("动态线程池, 上报线程池信息: {}", threadPoolConfigEntities);
 
-        ThreadPoolConfigEntity threadPoolConfigEntityCurrent = dynamicThreadPoolService.queryThreadPoolConfigByName(threadPoolConfigEntity.getThreadPoolName());
-        registry.reportThreadPoolConfigParameter(threadPoolConfigEntityCurrent);
-        logger.info("动态线程池，上报线程池配置：{}", JSON.toJSONString(threadPoolConfigEntity));
+        UpdateThreadPoolConfigDTO updateThreadPoolConfigDTOCurrent = UpdateThreadPoolConfigDTO.buildUpdateThreadPoolConfigDTO(
+                dynamicThreadPoolService.queryThreadPoolByName(
+                        updateThreadPoolConfigDTO.getThreadPoolName()
+                )
+        );
+        registry.reportUpdateThreadPoolConfigParameter(
+                updateThreadPoolConfigDTO
+        );
+        log.info("动态线程池, 上报配置参数: {}", updateThreadPoolConfigDTOCurrent);
     }
-
 }

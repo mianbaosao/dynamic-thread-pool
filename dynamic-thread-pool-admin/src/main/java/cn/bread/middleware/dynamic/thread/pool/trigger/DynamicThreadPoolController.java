@@ -1,6 +1,6 @@
 package cn.bread.middleware.dynamic.thread.pool.trigger;
 
-import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
+import cn.bread.middleware.dynamic.thread.pool.sdk.domain.model2.entity.ThreadPoolConfigEntity;
 import cn.bread.middleware.dynamic.thread.pool.types.Response;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
