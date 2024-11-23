@@ -1,0 +1,6 @@
+cn\bread\controller\TestController.class
+cn\bread\config\propertis\ThreadPoolConfigAutoProperties.class
+cn\bread\config\ThreadPoolConfig.class
+cn\bread\DynamicThreadPoolTestApplication.class
+cn\bread\runner\ThreadPoolRunner.class
+META-INF\spring-configuration-metadata.json

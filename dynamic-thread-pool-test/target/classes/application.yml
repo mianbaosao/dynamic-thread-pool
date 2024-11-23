@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dynamic-thread-pool-test
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8080
