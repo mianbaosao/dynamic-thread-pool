@@ -4658,3 +4658,213 @@ cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.controller.AuthController
 24-11-23.17:22:40.053 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池信息: [ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, activeThreadCount=1, poolSize=2, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000), ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, activeThreadCount=0, poolSize=0, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000)]
 24-11-23.17:22:40.055 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
 24-11-23.17:22:40.056 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
+24-11-23.17:51:54.935 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 26080 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.17:51:54.939 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.17:51:55.133 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.17:51:55.136 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.17:51:55.155 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.17:55:43.622 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 28996 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.17:55:43.625 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.17:55:44.509 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.17:55:44.514 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.17:55:44.541 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.17:56:26.053 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 33344 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.17:56:26.055 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.17:56:26.262 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.17:56:26.269 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.17:56:26.298 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.17:58:25.543 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 23400 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.17:58:25.550 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.17:58:25.791 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.17:58:25.797 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.17:58:25.820 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.17:59:21.861 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 11712 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.17:59:21.863 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.17:59:22.053 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.17:59:22.059 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.17:59:22.077 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.18:10:01.342 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 13548 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.18:10:01.345 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.18:10:02.113 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+24-11-23.18:10:02.117 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-23.18:10:02.138 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cn.bread.DynamicThreadPoolTestApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bread.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'frontendConfig' for bean class [cn.bread.middleware.dynamic.thread.pool.sdk.web.config.FrontendConfig] conflicts with existing, non-compatible bean definition of same name and class [cn.bread.middleware.dynamic.thread.pool.sdk.domain.web.config.FrontendConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+24-11-23.18:14:56.632 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 19.0.1 on Bread with PID 36232 (E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Lenovo in E:\dynamic-thread-pool-master (3)\dynamic-thread-pool\dynamic-thread-pool)
+24-11-23.18:14:56.635 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-11-23.18:14:57.432 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-23.18:14:57.434 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-23.18:14:57.460 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-11-23.18:14:57.912 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-11-23.18:14:57.919 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-11-23.18:14:57.919 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-23.18:14:57.920 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-23.18:14:58.045 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-23.18:14:58.046 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1365 ms
+24-11-23.18:14:58.484 [main            ] INFO  Version                - Redisson 3.26.0
+24-11-23.18:14:58.789 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-23.18:14:58.814 [redisson-netty-1-24] INFO  ConnectionsHolder      - 10 connections initialized for localhost/127.0.0.1:6379
+24-11-23.18:14:59.567 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-23.18:14:59.580 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-11-23.18:14:59.589 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-11-23.18:14:59.599 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 3.449 seconds (JVM running for 3.991)
+24-11-23.18:15:00.068 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池信息: [ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, activeThreadCount=1, poolSize=1, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000), ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, activeThreadCount=0, poolSize=0, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000)]
+24-11-23.18:15:00.071 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
+24-11-23.18:15:00.072 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
+24-11-23.18:15:10.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池信息: [ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, activeThreadCount=3, poolSize=3, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000), ThreadPoolConfigEntity(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, activeThreadCount=0, poolSize=0, queueType=ResizableCapacityLinkedBlockingQueue, queueSize=0, remainingCapacity=5000)]
+24-11-23.18:15:10.022 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor01, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
+24-11-23.18:15:10.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池, 上报线程池配置信息: UpdateThreadPoolConfigDTO(applicationName=dynamic-thread-pool-test, threadPoolName=threadPoolExecutor02, corePoolSize=20, maximumPoolSize=50, queueCapacity=5000)
