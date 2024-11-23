@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: dynamic-thread-pool-test-app
-  profiles:
-    active: dev
