@@ -16,9 +16,8 @@ import org.springframework.context.annotation.Bean;
 @EnableConfigurationProperties(DynamicThreadPoolWebAutoProperties.class)
 public class DynamicThreadPoolWebAutoConfig {
 
-    @Bean
-    public FrontendConfig dynamicThreadPoolStaticConfig(
-            DynamicThreadPoolWebAutoProperties dynamicThreadPoolWebAutoProperties
+//    @Bean
+    public FrontendConfig dynamicThreadPoolStaticConfig(DynamicThreadPoolWebAutoProperties dynamicThreadPoolWebAutoProperties
     ) {
         return new FrontendConfig(dynamicThreadPoolWebAutoProperties);
     }
