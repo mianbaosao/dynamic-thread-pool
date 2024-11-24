@@ -1,0 +1,184 @@
+<changelist name="Uncommitted_changes_before_Update_at_2024-11-23_17_26_[Default_Changelist]" date="1732353987766" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-23_17_26_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2024-11-23 17:26 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/dynamic-thread-pool-spring-boot-starter-sources.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/vo/CheckAuthVO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/vo/SettingsVO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/strategy/alarm/FeiShuAlarmStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/registry/redis/RedisRegistry.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/hook/ResizableCapacityLinkedBlockingQueue.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/PrometheusConfigRunner.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/enums/AlarmStrategyEnum.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/strategy/alarm/DingDingAlarmStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/test-classes/cn/bread/middleware/dynamic/thread/pool/ApiTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/AlarmCanSendStateChangeJob.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/hook/Helpers.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/vo/ResponseVO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-test/target/classes/cn/bread/config/ThreadPoolConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolAlarmAutoProperties$AccessToken.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-test/target/classes/cn/bread/config/propertis/ThreadPoolConfigAutoProperties.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/utils/ApplicationUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/service/IAlarmService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryRedisAutoProperties.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/enums/RegistryEnum.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolWebAutoProperties$Auth.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/dto/UpdateThreadPoolConfigDTO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-test/target/classes/cn/bread/controller/TestController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/utils/AuthUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigAdjustListener.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/enums/ResponseEnum.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/hook/ResizableCapacityLinkedBlockingQueue$Itr.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/strategy/alarm/IAlarmStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/controller/ThreadPoolController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/entity/ThreadPoolConfigEntity.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolAlarmAutoProperties.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/vo/LoginVO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/exception/DynamicThreadPoolWebGlobalExceptionHandler.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/service/impl/AlarmServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/listener/ThreadPoolConfigRefreshListener.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-test/target/classes/cn/bread/DynamicThreadPoolTestApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/model/dto/LoginDTO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/exception/BusinessException.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/controller/SettingsController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/registry/IRegistry.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/strategy/alarm/AbstractAlarmStrategy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/META-INF/spring.factories" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/trigger/job/ThreadPoolDataReportJob.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/service/impl/DynamicThreadPoolServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolWebAutoProperties.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/dto/RefreshThreadPoolConfigDTO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/hook/ResizableCapacityLinkedBlockingQueue$LBQSpliterator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/config/FrontendConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolWebAutoConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/dynamic-thread-pool-spring-boot-starter.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAlarmAutoConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/hook/ResizableCapacityLinkedBlockingQueue$Node.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/config/properties/DynamicThreadPoolRegistryAutoProperties.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/utils/RedisUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/service/IDynamicThreadPoolService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/web/controller/AuthController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-test/target/classes/cn/bread/runner/ThreadPoolRunner.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dynamic-thread-pool-spring-boot-starter/target/classes/cn/bread/middleware/dynamic/thread/pool/sdk/domain/model/dto/AlarmMessageDTO.class" />
+  </binary>
+</changelist>
